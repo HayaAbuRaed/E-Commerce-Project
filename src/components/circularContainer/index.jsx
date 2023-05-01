@@ -2,7 +2,7 @@ import React from 'react'
 import { Typography } from '@mui/material'
 import styles from './master.module.css';
 
-function CircularContainer({icon,feature,desc}) {
+function CircularContainer({icon,feature,desc,variant}) {
     return (
         <div className= {styles.circularContainer}> 
             <div className={styles.bigCircle}>
@@ -10,7 +10,7 @@ function CircularContainer({icon,feature,desc}) {
                 {icon}
                 </div>
             </div>
-            <Typography variant='h3'>{feature}</Typography>
+            <Typography variant={variant}>{feature}</Typography>
             <p>{desc}</p>
         </div>
     )

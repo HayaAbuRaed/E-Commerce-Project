@@ -28,14 +28,14 @@
   }
   
   
-  .circularContainer h3{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    margin: 1.2em 0 0.4em 0;
+  .circularContainer h4, .circularContainer h6{
+    line-height: 2.5rem;
+    margin: 1.2rem 0 0.4em 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
+    color:#000000;
   }
   
   .circularContainer p{
@@ -45,3 +45,8 @@
     margin: 0;
     color: #000000;
   }
+
+  .info-container > .stack-item:nth-child(2){
+    background-color: #DB4444;
+    color: #FFFFFF;
+}
