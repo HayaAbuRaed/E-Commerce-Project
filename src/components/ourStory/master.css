@@ -7,3 +7,22 @@
     margin-right: calc(8.4375em * -1);
     width: 125%;
 }
+
+
+@media only screen and (max-width:1440px) {
+    .females-image{
+        width: 130%;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .females-image{
+        width: 132%;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .females-image{
+        width: 100%;
+    }
+}
