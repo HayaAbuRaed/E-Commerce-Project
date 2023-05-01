@@ -12,14 +12,14 @@ const theme = createTheme({
         primary: '#000000',
         secondary: '#ffffff',
     },
-    typography: {
-        fontFamily: 'Poppins, sans-serif',
-        fontWeightRegular: 400,
-        fontWeightMedium: 500,
-        fontWeightBold: 700,
-        '@import': "url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap')",
-    },
   },
+
+    typography: {
+      h1: {
+        fontWeight: 700,
+        fontFamily:'Inter, sans-serif'
+      },
+    },
   
 });
 

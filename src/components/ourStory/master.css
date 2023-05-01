@@ -1,0 +1,9 @@
+.our-story-container{
+    display: flex;
+}
+
+
+.females-image{
+    margin-right: calc(8.4375em * -1);
+    width: 125%;
+}
