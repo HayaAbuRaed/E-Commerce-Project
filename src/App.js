@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './theme';
+import { Box } from '@mui/material';
+import Header from './components/header';
+import CurrentTab from './components/currentTab';
+
+// import Footer from './components/footer'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Header/>
+      <Box padding={'0px 9.4%'}>
+        <CurrentTab/>
+      </Box>
+      {/* <Footer/> */}
+      
+    </ThemeProvider>
   );
 }
 
