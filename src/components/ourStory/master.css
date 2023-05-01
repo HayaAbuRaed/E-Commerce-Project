@@ -5,11 +5,11 @@
 
 .females-image{
     margin-right: calc(8.4375em * -1);
-    width: 125%;
+    width: 124%;
 }
 
 
-@media only screen and (max-width:1440px) {
+@media only screen and (max-width:1395px) {
     .females-image{
         width: 130%;
     }
@@ -19,7 +19,7 @@
     .females-image{
         width: 132%;
     }
-}
+}   
 
 @media only screen and (max-width:900px) {
     .females-image{

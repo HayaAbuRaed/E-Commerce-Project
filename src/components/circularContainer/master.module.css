@@ -1,0 +1,47 @@
+.circularContainer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+  }
+  
+  .bigCircle{
+    width:80px;
+    height:80px;
+    background-color: rgba(47, 46, 48, 0.3);
+    border-radius: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: auto;
+  }
+  .smallCircle{
+    width:58px;
+    height:58px;
+    background-color: #000000;
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .circularContainer h3{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin: 1.2em 0 0.4em 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: auto;
+    height: auto;
+  }
+  
+  .circularContainer p{
+    font-size: 0.875rem;
+    color:#000000;
+    line-height: 1.3125rem;
+    margin: 0;
+    color: #000000;
+  }
