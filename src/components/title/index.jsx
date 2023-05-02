@@ -8,7 +8,7 @@ function Title() {
                 variant="h5"
                 noWrap
                 component="div"
-                sx={{ display: { sx: 'block' }, fontWeight:700 }}
+                sx={{ display: { sx: 'block' }}}
             >
                 Exclusive
           </Typography>

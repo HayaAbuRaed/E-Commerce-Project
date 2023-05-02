@@ -159,8 +159,14 @@ export default function Header() {
   );
 
   return (
-    <Box sx={{ flexGrow: 1 }} >
-      <AppBar position="static" color="secondary" sx={{ px: '7.7%' }}>
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static" color="secondary" 
+        sx={{ px: '7.7%',
+        height: '94px',
+        boxShadow:'none',
+        justifyContent:'end',
+        borderBottom: 'rgba(0, 0, 0, 0.3)  solid 1px'}}
+      >
         <Toolbar sx={{justifyContent: 'space-between'}}>
           
           <Title/>
@@ -169,10 +175,8 @@ export default function Header() {
             {pages.map((page) => (
               <Button
               key={page}
-              // sx={{ my: 2, display: 'block'}}
               textTransform = 'none'
-              // typography={{ textTransform: 'none' }}
-              className='my-btn'
+              className='tab-btn'
               
               >
                 
