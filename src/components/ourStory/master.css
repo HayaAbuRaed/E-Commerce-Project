@@ -3,25 +3,11 @@
 }
 
 
-.females-image{
-    margin-right: calc(8.4375em * -1);
+.females-image{     
     width: 124%;
-}
+} 
 
-
-@media only screen and (max-width:1395px) {
-    .females-image{
-        width: 130%;
-    }
-}
-
-@media only screen and (max-width:1200px) {
-    .females-image{
-        width: 132%;
-    }
-}   
-
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:950px) {
     .females-image{
         width: 100%;
     }
