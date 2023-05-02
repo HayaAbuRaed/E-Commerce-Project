@@ -1,0 +1,8 @@
+.infoContainer {
+    margin: 8.75em 0;
+}
+
+.infoContainer  .stackItem:nth-child(2){
+    background-color: #DB4444;
+}
+

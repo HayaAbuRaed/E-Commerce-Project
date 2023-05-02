@@ -1,0 +1,15 @@
+.search-menu-repper{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tab-btn{
+    text-transform: none !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-bar-container{
+  height:'94px', 
+  /* justifyContent:'end', boxShadow: 'none',borderBottom:   */
+}

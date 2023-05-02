@@ -1,0 +1,14 @@
+.our-story-container{
+    display: flex;
+}
+
+
+.females-image{     
+    width: 124%;
+} 
+
+@media only screen and (max-width:950px) {
+    .females-image{
+        width: 100%;
+    }
+}

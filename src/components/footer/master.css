@@ -1,0 +1,16 @@
+footer{
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    padding: 5em 8.4375em 3.75em 8.4375em;
+    color: #ffffff;
+}
+
+.columnItem{
+    margin: 0 0 5em 0 !important ;
+}
+
+@media only screen and (max-width:600px) {
+    footer{
+        padding: 1em;
+    }
+}
