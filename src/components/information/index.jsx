@@ -18,7 +18,8 @@ export default function Information() {
   return (
     <div>
       <Stack
-        direction={{ xs: 'column', sm: 'row' }}
+        direction={{ xs: 'column', md: 'row' }}
+        alignItems={'center'}
         spacing={{ xs: 1, sm: 2, md: 4 }}
         sx={{
             "& > *": {

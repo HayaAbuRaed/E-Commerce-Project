@@ -2,6 +2,7 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     justify-content: space-between;
+    margin-top: 2em;
   }
   
   .bigCircle{
@@ -49,4 +50,10 @@
   .info-container > .stack-item:nth-child(2){
     background-color: #DB4444;
     color: #FFFFFF;
+}
+
+@media only screen and (max-width:1400px) {
+  .circularContainer{
+    width: auto;
+  }
 }
