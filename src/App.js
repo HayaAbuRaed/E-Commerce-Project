@@ -7,8 +7,7 @@ import CurrentTab from './components/currentTab';
 import OurStory from './components/ourStory';
 import Features from './components/features';
 import Information from './components/information';
-
-// import Footer from './components/footer'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
         <Information/>
         <Features/>
       </Box>
-      {/* <Footer/> */}
+      <Footer/>
       
     </ThemeProvider>
   );

@@ -5,7 +5,6 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import Badge from '@mui/material/Badge';
 import MenuItem from '@mui/material/MenuItem';
@@ -16,8 +15,8 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { Button } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
 import './master.css'
+import Title from '../title';
 
 const pages = ['Home', 'Contact', 'About','Sign Up'];
 
@@ -61,16 +60,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
   },
 }));
-
-const btnTheme = createTheme({
-    overrides: {
-      MuiButton: {
-        root: {
-          textTransform: 'none',
-        },
-      },
-    },
-  });
 
 export default function Header() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -173,14 +162,8 @@ export default function Header() {
     <Box sx={{ flexGrow: 1 }} >
       <AppBar position="static" color="secondary" sx={{ px: '7.7%' }}>
         <Toolbar sx={{justifyContent: 'space-between'}}>
-          <Typography
-            variant="h5"
-            noWrap
-            component="div"
-            sx={{ display: { sx: 'block' }, fontWeight:700 }}
-          >
-            Exclusive
-          </Typography>
+          
+          <Title/>
         
           <Box justifyContent="space-between" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', maxWidth: '376px' } }}>
             {pages.map((page) => (

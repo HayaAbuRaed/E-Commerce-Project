@@ -19,6 +19,15 @@ const theme = createTheme({
         fontWeight: 700,
         fontFamily:'Inter, sans-serif'
       },
+      h6: {
+        fontWeight: 400,
+        fontFamily:'Poppins, sans-serif'
+      },
+      body1: {
+        fontSize: "1rem",
+        fontFamily: 'Poppins, sans-serif', 
+        fontWeight: 400,
+      },
     },
   
 });
