@@ -45,9 +45,9 @@ function Footer() {
                     flexWrap={{xs:'wrap', lg:'noWrap'}}
                 >
                     {/* first column */}
-                    <Item>
+                    <Item className='columnItem'>
                         <Box sx={{ width: '100%' }}>
-                            <Stack spacing={2}>
+                            <Stack spacing={4}>
                                 <Item> <Title/> </Item>
                                 <Item> <FooterSubTitle title={'Subscribe'}/> </Item>
                                 <Item> <Typography varient='p'>Get 10% off your first order</Typography> </Item>
@@ -75,13 +75,13 @@ function Footer() {
                     </Item>
                     
                     {/* 2nd column */}
-                    <Item>
+                    <Item className='columnItem'>
                         <Box sx={{ width: '100%' }} >
-                            <Stack spacing={2}>
+                            <Stack spacing={5}>
                                 <Item> <FooterSubTitle title={'Support'}/> </Item>
                                 <Item> 
                                     <Typography varient='p'>
-                                        111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.
+                                        111 Bijoy sarani, Dhaka, <br/> DH 1515, Bangladesh.
                                     </Typography> 
                                 </Item>
                                 <Item> 
@@ -99,9 +99,9 @@ function Footer() {
                     </Item>
 
                     {/* 3rd column */}
-                    <Item>
+                    <Item className='columnItem'>
                         <Box sx={{ width: '100%' }} >
-                            <Stack spacing={2}>
+                            <Stack spacing={5}>
                                 <Item> <FooterSubTitle title={'Account'}/> </Item>
                                 <Item> 
                                     <LinkItem href='#'>
@@ -133,9 +133,9 @@ function Footer() {
                     </Item>
 
                     {/* 4th column */}
-                    <Item>
+                    <Item className='columnItem'>
                         <Box sx={{ width: '100%' }} >
-                            <Stack spacing={2}>
+                            <Stack spacing={5}>
                                 <Item> <FooterSubTitle title={'Quick Link'}/> </Item>
                                 <Item> 
                                     <LinkItem href='#'>
@@ -162,7 +162,7 @@ function Footer() {
                     </Item>
 
                     {/* 5th column */}
-                    <Item>
+                    <Item className='columnItem'>
                         <Box sx={{ width: '100%' }} >
                             <Stack spacing={2}>
                                 <Item> <FooterSubTitle title={'Download App'}/> </Item>
@@ -175,7 +175,7 @@ function Footer() {
                                     </Stack>
                                     </Stack>
                                 </Box>
-                                <Box display={'flex'} justifyContent={'center'}> <SocialMedia facebook={'#'}/></Box> 
+                                <Box display={'flex'} justifyContent={'center'}> <SocialMedia facebook={'#'} /></Box> 
                             </Stack>
                         </Box>
                     </Item>

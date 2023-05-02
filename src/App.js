@@ -14,7 +14,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Header/>
-      <Box padding={'0px 8.4375em'}>
+      <Box padding={{xs:'0px 1em', md:'0px 8.4375em'}}>
         <CurrentTab/>
         <OurStory/>
         <Information/>

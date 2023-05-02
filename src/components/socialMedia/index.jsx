@@ -13,7 +13,7 @@ function SocialMedia({facebook=null,twitter,insta,linkedin}) {
         color: 'inherit' 
     }));
     return (
-        <Box display={'flex'} justifyContent={'space-between'} maxWidth={'168px'}>
+        <Box display={'flex'} justifyContent={'space-between'} maxWidth={'168px'} flexDirection={{xs:'column', md:'row'}}>
             {
                 facebook !== null ?
                 <Icon href={facebook}>
