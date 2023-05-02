@@ -8,6 +8,7 @@ import OurStory from './components/ourStory';
 import Features from './components/features';
 import Information from './components/information';
 import Footer from './components/footer'
+import Founders from './components/founders';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <CurrentTab/>
         <OurStory/>
         <Information/>
+        <Founders/>
         <Features/>
       </Box>
       <Footer/>

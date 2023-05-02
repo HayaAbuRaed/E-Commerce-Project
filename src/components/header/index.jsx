@@ -169,8 +169,11 @@ export default function Header() {
             {pages.map((page) => (
               <Button
               key={page}
-              sx={{ my: 2, display: 'block'}}
-              typography={{ textTransform: 'none' }}
+              // sx={{ my: 2, display: 'block'}}
+              textTransform = 'none'
+              // typography={{ textTransform: 'none' }}
+              className='my-btn'
+              
               >
                 
                 {page}

@@ -1,7 +1,8 @@
 .features-section{
-    margin: 8.75em 7.1em;
+    margin: 8.75em auto;
     display: flex;
     justify-content: space-between;
+    max-width: 943px;
   }
   
   @media only screen and (max-width:900px) {

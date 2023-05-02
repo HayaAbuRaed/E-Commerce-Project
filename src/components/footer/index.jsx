@@ -33,6 +33,7 @@ function Footer() {
         textDecoration:'none'
     }));
 
+
     return (
         <footer>
             <div>
@@ -174,7 +175,7 @@ function Footer() {
                                     </Stack>
                                     </Stack>
                                 </Box>
-                                <Box display={'flex'} justifyContent={'center'}> <SocialMedia/> </Box> 
+                                <Box display={'flex'} justifyContent={'center'}> <SocialMedia facebook={'#'}/></Box> 
                             </Stack>
                         </Box>
                     </Item>

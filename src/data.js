@@ -47,3 +47,5 @@ export const informationData = [
   describtion:"Anual gross sale in our site"
 }
 ]
+
+

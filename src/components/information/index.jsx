@@ -9,9 +9,10 @@ import styles from './master.module.css'
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
-  padding: theme.spacing(1),
+  padding: theme.spacing("2.1875em"),
   textAlign: 'center',
   color: theme.palette.text.secondary,
+  width:'25%',
 }));
 
 export default function Information() {
@@ -29,13 +30,12 @@ export default function Information() {
           className={styles.infoContainer}
       >
         {
-            informationData.map((e) =>
-                <Item color='primary' sx={{padding:'2.1875em', width:'25%'}} className={styles.stackItem}>
-                    <CircularContainer icon = {e.icon} feature={e.feature} desc={e.describtion} variant={'h4'}/>
+            informationData.map((e,index) =>
+                <Item color='primary' className={styles.stackItem}>
+                    <CircularContainer icon = {e.icon} feature={e.feature} desc={e.describtion} variant={'h4'} itemOrder={index}/>
                 </Item>
             )
         }
-        
       </Stack>
     </div>
   );

@@ -1,0 +1,8 @@
+.swiper-pagination{
+    position: static;
+    margin-top: 2.5em
+}
+
+.mySwiper img{
+    width:100%
+}

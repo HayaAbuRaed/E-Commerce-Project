@@ -7,16 +7,20 @@ import Instagram from '@mui/icons-material/Instagram';
 import LinkedIn from '@mui/icons-material/LinkedIn';
 import { styled } from '@mui/material';
 
-function SocialMedia({facebook,twitter,insta,linkedin}) {
+function SocialMedia({facebook=null,twitter,insta,linkedin}) {
     const Icon = styled(IconButton)(({ theme }) => ({
         ...theme.typography.body1,
-        color: theme.palette.text.secondary,
+        color: 'inherit' 
     }));
     return (
-        <Box color={'secondary'} display={'flex'} justifyContent={'space-between'} maxWidth={'168px'}>
-            <Icon href={facebook}>
-                <Facebook />
-            </Icon>
+        <Box display={'flex'} justifyContent={'space-between'} maxWidth={'168px'}>
+            {
+                facebook !== null ?
+                <Icon href={facebook}>
+                    <Facebook />
+                </Icon> : 
+                null
+            }
 
             <Icon href={twitter}>
                 <Twitter />
